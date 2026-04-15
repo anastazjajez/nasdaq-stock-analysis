@@ -28,6 +28,15 @@ The following KPIs were evaluated for each dataset:
 - **Accuracy** - prices were within realistic financial ranges
 - **Consistency** - no duplicate rows and correct data types were observed
 
+## Data Cards per Company
+
+Each dataset (PLTR, SHOP, MRNA, UBER, ABNB) was processed separately using the same methodology:
+
+- Source: Yahoo Finance via yfinance
+- KPIs: completeness, latency, accuracy, consistency
+- Each dataset contains historical daily closing prices
+- No missing values or duplicates were found across datasets
+
 ## Final Takeaway
 All datasets were complete, consistent, and accurate, with no missing values or duplicate records. The data sourced from Yahoo Finance provided reliable historical daily prices, making it suitable for time series analysis and cross-company comparison.
 
