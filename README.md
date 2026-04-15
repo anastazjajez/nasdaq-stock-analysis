@@ -23,10 +23,10 @@ Type of data used:
 ## KPI Evaluation
 The following KPIs were evaluated for each dataset:
 
-- **Completeness** – no missing values were found
-- **Latency** – historical daily prices were sufficient for time series analysis
-- **Accuracy** – prices were within realistic financial ranges
-- **Consistency** – no duplicate rows and correct data types were observed
+- **Completeness** - no missing values were found
+- **Latency** - historical daily prices were sufficient for time series analysis
+- **Accuracy** - prices were within realistic financial ranges
+- **Consistency** - no duplicate rows and correct data types were observed
 
 ## Final Takeaway
 All datasets were complete, consistent, and accurate, with no missing values or duplicate records. The data sourced from Yahoo Finance provided reliable historical daily prices, making it suitable for time series analysis and cross-company comparison.
